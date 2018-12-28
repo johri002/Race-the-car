@@ -1,8 +1,54 @@
 # Race-the-car
-An exciting strategy board game created on python as a part of learning project.  
-More like a shorter version of chess, where one needs to stay focused, anticipate the other player's moves and cover all the tracks.
+---
+> An exciting strategy board game created on python as a part of learning project.  
+
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) 
+
+
+## Table of content
+
+- [Introduction](#introduction)
+  - [Technologies](#technologies)
+  - [Working](#how-it-works)
+- [Installation guide](#installation-guide)
+- [Screenshot](#screenshot)
+- [License](#license)
+
+
+## Introduction
+---
+[(Back to top)](#table-of-content)
+
+A strategy board game made with python. More like a shorter version of chess, where one needs to stay focused, anticipate the other player's moves and cover all the tracks.
+
+### Technologies:
+- `Python 3.6`
+- `pygame` [tutorial](https://pythonprogramming.net/pygame-python-3-part-1-intro/)
+
+
+### How it works?
+
+### Objective
+In this game two players need to reach the desired destination(i.e the finish flag of respective colors). The one reaching first will win the game.
+
+### Twist
+To make the game interesting each player is provided with 8 fences to make the opponent's path difficult.
+
+### Rules
+* When it's your turn, you can either move your car forward, backward, left or right, only one square at a time or you can put up a fence.  
+* Fences can block only two squares completely, are limited in number i.e each of them can use a maximum of 8 fences & the opponent should not be blocked completely.  
+* One route must be available to the opponent, if failing to do so the player who blocked the car will lose the game.  
+* If there is a fence any player cannot move the car over it. A fence can not be overlapped and it cannot pass from the middle of the another fence.  
+* When two cars come face to face, one car can jump over the other in its turn, also the car can jump to the left or right of the opponent's car, provided there is no fence in the middle.  
+* The car that reaches first on the square having the finish flag of it's color, is declared as the winner.  
+
+
 
 ## Installation guide
+---
+[(Back to top)](#table-of-content)
+
 #### Option 1: By creating an Executable file
 * Clone the repo
 ```sh
@@ -38,24 +84,21 @@ $ pip install -r requirements.txt
 $ python Race_the_car.py
 ```
 
-## Objective
-In this game two players need to reach the desired destination(i.e the finish flag of respective colors). The one reaching first will win the game.
 
-## Twist
-To make the game interesting each player is provided with 8 fences to make the opponent's path difficult.
 
-## Rules
-* When it's your turn, you can either move your car forward, backward, left or right, only one square at a time or you can put up a fence.  
-* Fences can block only two squares completely, are limited in number i.e each of them can use a maximum of 8 fences & the opponent should not be blocked completely.  
-* One route must be available to the opponent, if failing to do so the player who blocked the car will lose the game.  
-* If there is a fence any player cannot move the car over it. A fence can not be overlapped and it cannot pass from the middle of the another fence.  
-* When two cars come face to face, one car can jump over the other in its turn, also the car can jump to the left or right of the opponent's car, provided there is no fence in the middle.  
-* The car that reaches first on the square having the finish flag of it's color, is declared as the winner.  
+## Screenshot
+---
+[(Back to top)](#table-of-content)
 
-## Screenshots
 ![Screenshot01](screenshots/screenshot01.png)
 ![Screenshot02](screenshots/screenshot02.png)
 ![Winning Moment](screenshots/screenshot03.png)
 
-## Unit testing
-Testing with pytest version 3.9.1
+
+## License
+---
+[(Back to top)](#table-of-content)
+
+The code in this project is licensed under the Apache License 2.0 - Saurabh Jain.
+
+
