@@ -32,25 +32,4 @@ cx_Freeze.setup(
 		}
 	},
 	executables=executables,
-
-    name="RacetheCar",
-    options={
-        "build_exe": {
-            "packages": [
-                "pygame",
-                "sys",
-                "pygame.surfarray",
-                "numpy",
-                "pygame._numpysurfarray",
-            ],
-            "include_files": [
-                "img/red2.jpg",
-                "img/blue2.jpg",
-                "img/car_11.png",
-                "img/car_22.png",
-                "img/hm2.jpg",
-            ],
-        }
-    },
-    executables=executables,
 )
