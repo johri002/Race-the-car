@@ -18,11 +18,11 @@ cx_Freeze.setup(
                 "pygame._numpysurfarray",
             ],
             "include_files": [
-                "red2.jpg",
-                "blue2.jpg",
-                "car_11.png",
-                "car_22.png",
-                "hm2.jpg",
+                "img/red2.jpg",
+                "img/blue2.jpg",
+                "img/car_11.png",
+                "img/car_22.png",
+                "img/hm2.jpg",
             ],
         }
     },
