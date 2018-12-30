@@ -7,7 +7,6 @@ os.environ["TK_LIBRARY"] = os.path.join(PYTHON_INSTALL_DIR, "tcl", "tk8.6")
 
 executables = [cx_Freeze.Executable("Race_the_car.py")]
 cx_Freeze.setup(
-<<<<<<< HEAD
 	name="RacetheCar",
 	version = "0.1.0",
 	author = "Saurabh Jain",
@@ -33,7 +32,7 @@ cx_Freeze.setup(
 		}
 	},
 	executables=executables,
-=======
+
     name="RacetheCar",
     options={
         "build_exe": {
@@ -54,5 +53,4 @@ cx_Freeze.setup(
         }
     },
     executables=executables,
->>>>>>> 78140d14faab53a2fa2d5483c04144e066741d1f
 )
