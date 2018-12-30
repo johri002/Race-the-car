@@ -43,6 +43,9 @@ To make the game interesting each player is provided with 8 fences to make the o
 * When two cars come face to face, one car can jump over the other in its turn, also the car can jump to the left or right of the opponent's car, provided there is no fence in the middle.  
 * The car that reaches first on the square having the finish flag of it's color, is declared as the winner.  
 
+### Race-the-car working
+
+![racethecar3](https://user-images.githubusercontent.com/30645315/49616081-96505f00-f9d5-11e8-9ce6-96d29442c02b.gif)
 
 
 ## Installation guide
